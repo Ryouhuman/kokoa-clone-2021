@@ -1,0 +1,48 @@
+@import "reset.css";
+@import "status-bar.css";
+body {
+    font-family: sans-serif;
+}
+.introduction {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    margin-bottom: 20px;
+}
+.introduction__title {
+    font: 25px black bold;
+    margin-bottom: 40px;
+}
+.introduction__sentence {
+    width: 400px;
+    font: 15px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    align-items: center;
+}
+#find-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-input__element {
+    width: 400px; height: 30px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.login-input__btn {
+    width: 400px; height: 30px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
