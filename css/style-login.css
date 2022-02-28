@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "status-bar.css";
+@import "variables.css";
 body {
     font-family: sans-serif;
 }
@@ -44,10 +45,19 @@ body {
 .login-input__btn {
     width: 400px; height: 30px;
     margin-top: 10px;
-    border: 1px solid black;
+    border-radius: 5%;
+    background-color: lightgray;
+    transition: border-bottom .3s ease-in-out;
 }
 .login-input__create-account {
     width: 400px; height: 30px;
     margin-top: 5px;
-    border: 1px solid black;
+    border-radius: 5%;
+    background-color: var(--kyellow-);
+}
+.login-input__element:focus {
+    border-bottom: --kyellow-;
+}
+find-account span {
+    margin-right: 5px;
 }
