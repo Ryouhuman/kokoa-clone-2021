@@ -5,25 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kokoa-clone-login</title>
-    <link href="css/style-login.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
+    <section class="status-bar">
+        <div class="status-bar_column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar_column">
+            <span>19:30</span>
+        </div>
+        <div class="status-bar_column">
+            <i class="status-bar__right-elements fa-solid fa-lock"></i>
+            <span class="status-bar__right-elements ">100%</span>
+            <i class="status-bar__right-elements fa-solid fa-battery-full"></i>
+            <i class="status-bar__right-elements fa-solid fa-bolt"></i>
+        </div>
+    </section>
     <header>
-        <section class="status-bar">
-            <div class="status-bar_column">
-                <span>No Service</span>
-                <i class="fa-solid fa-wifi"></i>
-            </div>
-            <div class="status-bar_column">
-                <span>19:30</span>
-            </div>
-            <div class="status-bar_column">
-                <i class="status-bar__right-elements fa-solid fa-lock"></i>
-                <span class="status-bar__right-elements ">100%</span>
-                <i class="status-bar__right-elements fa-solid fa-battery-full"></i>
-                <i class="status-bar__right-elements fa-solid fa-bolt"></i>
-            </div>
-        </section>
         <div class="introduction">
             <h1 class="introduction__title">Welcome to kokoa clone</h1>
             <h2 class="introduction__sentence">If you have a Kokoa Accont,</h2>
@@ -36,12 +36,17 @@
             <input class="login-input__element" required placeholder="Password" type="text"/>
             <input class="login-input__btn" value="Log In" type="submit" />
             <div class="login-input__create-account">Create New Account</div>
+            <!--계정 만들기 창 만들면 링크 만들기-->
         </div>
         <div class="find-account">
             <span>fotgot account?</span>
-            <a id="find-account__a" href="#">Click here!</a>
+            <a href="#">Click here!</a>
+            <!--계정 찾기 창 만들면 링크 만들기-->
         </div>
     </main>
+    <div id="no-mobile">
+        <span>Your screen is too big!!!</span>
+    </div>
     <script src="https://kit.fontawesome.com/a99eec3aff.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,45 @@
+@import "reset.css";
+@import "variables.css";
+/* Components*/
+@import "component/status-bar.css";
+@import "component/login.css";
+@import "component/nav-bar.css";
+@import "component/screen-header.css";
+@import "component/friend.css";
+@import "component/user-component.css";
+@import "component/find.css";
+@import "component/icon-row.css";
+@import "component/more.css";
+@import "component/alt-screen-header.css";
+@import "component/settings.css";
+@import "component/chat.css";
+@import "component/no-mobile.css";
+
+body {
+    font-family: sans-serif;
+}
+.main-screen {
+    padding: 0 var(--horizontal-space);
+    margin-top: 25px;
+}
+.introduction {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    margin-bottom: 20px;
+}
+.introduction__title {
+    font: 25px black bold;
+    margin-bottom: 40px;
+}
+.introduction__sentence {
+    width: 400px;
+    font: 15px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

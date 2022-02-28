@@ -1,0 +1,49 @@
+.login-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    align-items: center;
+}
+.login-input__element {
+    width: 400px; height: 30px;
+    border: none;
+    border-bottom: 2px solid gray;
+    transition: border-color .7s ease-in-out;
+    padding: 10px 0;
+}
+.login-input__element:focus {
+    border-bottom: 2px solid var(--kyellow);
+}
+.login-input__element::placeholder {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.login-input__btn {
+    width: 400px; height: 50px;
+    margin-top: 10px;
+    border-radius: 5%;
+    border: none;
+    background-color: lightgray;
+    font-family: sans-serif; font-size: 20px; font-weight: 500;
+}
+.login-input__create-account {
+    width: 400px; height: 50px;
+    margin-top: 5px;
+    border-radius: 5%;
+    background-color: var(--kyellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif; font-size: 20px; font-weight: 500;
+}
+find-account span {
+    margin-right: 5px;
+}
+.find-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: sans-serif; font-size: 15px; font-weight: 300;
+}
