@@ -46,3 +46,8 @@ body {
     margin-top: 10px;
     border: 1px solid black;
 }
+.login-input__create-account {
+    width: 400px; height: 30px;
+    margin-top: 5px;
+    border: 1px solid black;
+}
